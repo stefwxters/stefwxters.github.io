@@ -3,24 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast Website Example</title>
+    <title>Fast Optimized Website</title>
+
+    <!-- Use Preloading -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preload" href="hero-image.jpg" as="image">
+
+    <!-- Minimal External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Inline Critical CSS -->
     <style>
-        /* Minimal CSS */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
             max-width: 800px;
             line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
         }
         h1 {
-            color: #333;
+            color: #1a73e8;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to a Fast Website</h1>
-    <p>This is an example of a lightweight, static webpage designed for speed and efficiency.</p>
-    <p>By minimizing CSS and JavaScript, and serving static content, we ensure quick load times and a better user experience.</p>
+    <!-- Lazy Loading Images -->
+    <h1>Welcome to a Fast Optimized Website</h1>
+    <img src="hero-image.jpg" alt="Hero Image" loading="lazy" width="800" height="400">
+
+    <p>This page has been optimized for faster load times using the following techniques:</p>
+    <ul>
+        <li>Minimized CSS and JavaScript</li>
+        <li>Preloading critical resources</li>
+        <li>Lazy loading images</li>
+        <li>Using a content delivery network (CDN)</li>
+    </ul>
+
+    <!-- Minimal Inline Script -->
+    <script>
+        // Defer heavy JavaScript until needed
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM fully loaded and parsed.');
+        });
+    </script>
+
+    <!-- Defer Loading of External JavaScript -->
+    <script src="script.js" defer></script>
 </body>
 </html>
