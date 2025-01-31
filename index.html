@@ -3,58 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unoptimized Website</title>
-
-    <!-- Loading huge CSS inline -->
-    <style>
-        /* This huge CSS should be moved to an external file for optimization */
-        body { margin: 0; font-family: Arial, sans-serif; }
-        h1 { text-align: center; color: red; margin-top: 20px; }
-        img { width: 100%; }
-        .content { padding: 20px; text-align: justify; }
-        /* Unnecessary duplicated styles */
-        p { line-height: 1.6; }
-        p { margin-bottom: 1.5rem; }
-        p { font-size: 16px; }
-        /* Excessive use of custom fonts */
-        @font-face {
-            font-family: 'CustomFont';
-            src: url('https://example.com/slow-loading-font.ttf');
-        }
-    </style>
+    <meta name="description" content="Industrial supplies for every job">
+    <title>McMaster-Carr - Industrial Supply</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
-    <h1>Welcome to a Slow Website</h1>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">McMaster-Carr</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <!-- Unoptimized large image -->
-    <img src="https://via.placeholder.com/3000x2000" alt="Large Placeholder Image">
+    <main class="main-content">
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1>Your Source for Industrial Supplies</h1>
+                <p>Browse thousands of products ready to ship today.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </section>
 
-    <!-- Blocking script -->
-    <script>
-        // Simulate blocking JavaScript
-        for (let i = 0; i < 1000000000; i++) {
-            // Intentional loop to slow down page load
-        }
-    </script>
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <h3>Fasteners</h3>
+                        <p>Bolts, screws, nuts, and more.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                    <div class="product-card">
+                        <h3>Tools</h3>
+                        <p>High-quality tools for every job.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                    <div class="product-card">
+                        <h3>Machinery</h3>
+                        <p>Reliable industrial machinery.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <div class="content">
-        <p>
-            This is an unoptimized website designed for testing. It includes
-            large inline CSS, unoptimized images, and blocking JavaScript to
-            ensure that the page loads slowly.
-        </p>
-        <p>
-            Your task is to fix these issues and make the website as fast as
-            possible!
-        </p>
-    </div>
-
-    <!-- Unnecessary large script loaded in the head -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- Inline JavaScript -->
-    <script>
-        document.querySelector('h1').style.color = 'blue';
-    </script>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 McMaster-Carr. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
