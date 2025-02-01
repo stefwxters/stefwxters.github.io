@@ -2,7 +2,7 @@ const CACHE_NAME = 'my-app-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/styles.css',
+  '/style.css',
   '/script.js',
   '/images/logo.png'
 ];
