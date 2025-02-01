@@ -25,6 +25,8 @@ ul {
 ul li {
     margin-bottom: 10px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 
 
