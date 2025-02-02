@@ -54,6 +54,9 @@
     <button id="startTimerBtn">Start Timer</button>
   </div>
 
+  <!-- Audio for Timer -->
+  <audio id="alarmSound" src="https://www.soundjay.com/button/beep-07.wav" preload="auto"></audio>
+
   <script>
     let stopwatchInterval;
     let timerInterval;
@@ -65,6 +68,7 @@
     const resetBtn = document.getElementById("resetBtn");
     const timerInput = document.getElementById("timerInput");
     const startTimerBtn = document.getElementById("startTimerBtn");
+    const alarmSound = document.getElementById("alarmSound");
 
     // Format time as HH:MM:SS
     function formatTime(seconds) {
@@ -116,6 +120,8 @@
           timeDisplay.textContent = formatTime(elapsedTime);
         } else {
           clearInterval(timerInterval);
+          timeDisplay.textContent = "00:00:00";
+          alarmSound.play(); // Play the sound when time is up
           alert("Time's up!");
         }
       }, 1000);
