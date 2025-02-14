@@ -1,2 +1,2 @@
 # stefwxters.github.io
-Quicklink
+Quicklink: (https://getquick.link/)
