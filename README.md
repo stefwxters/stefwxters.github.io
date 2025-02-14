@@ -1,3 +1,2 @@
 # stefwxters.github.io
-
-Site
+Quicklink
