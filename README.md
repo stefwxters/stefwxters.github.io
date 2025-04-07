@@ -4,4 +4,5 @@
 Main Repo Site List
 ## Tests
 :information_source:100% lighhouse score
-Lighthouse report: https://pagespeed.web.dev/analysis/https-stefwxters-github-io/zjazelsuw8?form_factor=mobile
+Pagespeed report: https://pagespeed.web.dev/analysis/https-stefwxters-github-io/zjazelsuw8?form_factor=mobile
+![Pagespeed insights](images/.image.avif)
