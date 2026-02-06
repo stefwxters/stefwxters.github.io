@@ -1,12 +1,14 @@
-<style>
-    body {
-        max-width: 800px;
-        margin: 40px auto;
-        padding: 0 10px;
-        line-height: 1.6;
-        font-family: sans-serif;
-        color: #333;
-    }
-    h1, h2, h3 { line-height: 1.2; }
-    a { color: #0077cc; }
-</style>
+@media print {
+  @page {
+    size: A4; /* Of 'A4 landscape' voor liggend */
+    margin: 1cm; /* Stelt vaste marges in voor de PDF */
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff; /* Forceer een witte achtergrond voor print */
+    color: #000;      /* Zorg voor zwart tekstcontrast */
+  }
+}
