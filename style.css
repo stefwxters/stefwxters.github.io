@@ -2,13 +2,13 @@
   @page {
     size: A4; /* Of 'A4 landscape' voor liggend */
     margin: 1cm; /* Stelt vaste marges in voor de PDF */
+
   }
 
   body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #fff; /* Forceer een witte achtergrond voor print */
-    color: #000;      /* Zorg voor zwart tekstcontrast */
+    background: #fff; 
+    color: #000;
   }
-}
