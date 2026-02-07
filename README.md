@@ -10,3 +10,8 @@
 [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/)
 [motherfuckingwebsite.com](https://motherfuckingwebsite.com/)
 [txti.es](https://txti.es/)
+[thebestmotherfucking.website](https://thebestmotherfucking.website/)
+
+
+### Tools i used 
+[Squooch.app](https://squoosh.app/)

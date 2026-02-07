@@ -23,9 +23,10 @@
 
 <body>
     <header>
+        <img src="assets/images/Stef300x300-modified.png" height="300" width="300" alt="Foto van Stef Wauters">
         <h1>Stef Wauters</h1>
+        <p>Student PXL IT Systeem- en Netwerkbeheer Student | Cisco IOS, Linux, Microsoft 365, AWS | Stage-ervaring CMS & digitale archivering | België</p>
         <aside>And it's fucking perfect.</aside>
-
         <h2>Seriously, what the fuck else do you want?</h2>
         
         <p>You probably build websites and think your shit is special. You think your 13 megabyte parallax-ative home page is going to get you some fucking Awwward banner you can glue to the top corner of your site. You think your 40-pound jQuery file and 83 polyfills give IE7 a boner because it finally has box-shadow. Wrong, motherfucker. Let me describe your perfect-ass website:</p>
@@ -72,10 +73,22 @@
             - some German motherfucker
         </blockquote>
         </header>
-
+        <a href="http://github" target="_blank">Visit Google</a>
     
     <!-- yes, I know...wanna fight about it? -->
     <script src="assets/js/site-optimization.js" type="module"></script>
-    
+    <script>
+      window.addEventListener('load', () => {
+          quicklink.listen();
+         });
+    </script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/quicklink@3.0.1/dist/quicklink.umd.js"></script>
+<script>
+  window.addEventListener('load', () => {
+    quicklink.listen();
+  });
+</script>
 </body>
 </html>
