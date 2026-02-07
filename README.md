@@ -7,4 +7,6 @@
 
 
 ## inspiration
-http://bettermotherfuckingwebsite.com/
+[bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/)
+[motherfuckingwebsite.com](https://motherfuckingwebsite.com/)
+[txti.es](https://txti.es/)
