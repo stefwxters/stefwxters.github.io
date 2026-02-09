@@ -1,9 +1,9 @@
 # stefwxters.github.io
 
 
-:scroll: The source of [site-optimization](getquick.link).
+:scroll: The source of [site-optimization](https://github.com/stefwxters/stefwxters.github.io/blob/main/assets/js/site-optimization.js) is [quicklink](getquick.link).
 
-./assets/js/site-optimization.js = instant.page because adblockers block the name
+quicklink = ./assets/js/site-optimization.js because adblockers block the name of the script
 
 
 ## inspiration
