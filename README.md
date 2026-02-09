@@ -1,7 +1,7 @@
 # stefwxters.github.io
 
 
-:scroll: The source of [site-optimization](https://github.com/instantpage/instant.page/blob/master/instantpage.js).
+:scroll: The source of [site-optimization](getquick.link).
 
 ./assets/js/site-optimization.js = instant.page because adblockers block the name
 
