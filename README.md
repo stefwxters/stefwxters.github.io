@@ -1,5 +1,8 @@
 # stefwxters.github.io
 
+# To Do
+- Add service worker
+- Add  
 
 :scroll: The source of [site-optimization](https://github.com/stefwxters/stefwxters.github.io/blob/main/assets/js/site-optimization.js) is [quicklink](getquick.link).
 
