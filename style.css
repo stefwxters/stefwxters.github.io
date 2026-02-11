@@ -3,35 +3,8 @@
     size: A4;
     margin: 1.5cm; /* Iets ruimere marges ogen vaak professioneler op papier */
   }
-
   body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background: #fff !important; /* Forceert een witte achtergrond */
-    color: #000 !important;      /* Forceert gitzwarte tekst voor contrast */
-    font-size: 11pt;             /* 'pt' is de standaardeenheid voor drukwerk */
+    font-family: 'Times New Roman', serif; /* Professioneler lettertype voor print */
+    color: #000; /* Zwarte tekst voor betere leesbaarheid */
+    background: none; /* Geen achtergrondkleur of afbeeldingen */
   }
-
-  /* Voorkom dat koppen eenzaam onderaan een pagina staan */
-  h1, h2, h3 {
-    page-break-after: avoid;
-    margin-top: 20pt;
-  }
-
-  /* Voorkom dat lijstitems of paragrafen doormidden worden gesneden */
-  li, p {
-    page-break-inside: avoid;
-  }
-
-  /* Maak links duidelijk zichtbaar zonder de blauwe kleur */
-  a {
-    text-decoration: underline;
-    color: #000;
-  }
-
-  /* Verberg onnodige zaken zoals scripts of de 'aside' satire */
-  script, .no-print {
-    display: none !important;
-  }
-}
