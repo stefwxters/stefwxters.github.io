@@ -1,10 +1,1 @@
 @media print {
-  @page {
-    size: A4;
-    margin: 1.5cm; /* Iets ruimere marges ogen vaak professioneler op papier */
-  }
-  body {
-    font-family: 'Times New Roman', serif; /* Professioneler lettertype voor print */
-    color: #000; /* Zwarte tekst voor betere leesbaarheid */
-    background: none; /* Geen achtergrondkleur of afbeeldingen */
-  }
