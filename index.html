@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Stef Wauters | IT Systeem- en Netwerkbeheer CV</title>
+  <meta name="author" content="Stef Wauters">
   <meta name="description" content="CV Stef Wauters - Student IT Systeem- en Netwerkbeheer">
   <link rel="canonical" href="https://stefwxters.github.io">
 
@@ -16,9 +17,7 @@
   <meta property="og:image" content="https://stefwxters.github.io/assets/images/Stef.webp">
 
   <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
 </head>
-
 <style>
   html {
     margin: auto
@@ -37,7 +36,7 @@
   }
 
   code {
-    background: white;
+    background: #fff;
   }
 
   a {
@@ -55,16 +54,19 @@
   }
 </style>
 
+
 <body>
   <header>
     <img fetchpriority="high" src="assets/images/Stef300x300-modified.webp" height="200" width="200"
       alt="Foto van Stef Wauters">
     <h1>Stef Wauters</h1>
     <p>Student PXL IT Systeem- en Netwerkbeheer | Cisco IOS, Linux, M365, AWS</p>
+    <aside>And it's fucking perfect.</aside>
   </header>
 
+
+
   <main>
-    <aside>And it's fucking perfect.</aside>
     <article>
       <h2>Seriously, what the fuck else do you want?</h2>
       <p>You probably build websites...</p>
@@ -80,10 +82,6 @@
         Bekijk source op GitHub
       </a>
 
-      <blockquote>
-        "Good design is as little design as possible."<br>
-        <cite>- Dieter Rams (some German motherfucker)</cite>
-      </blockquote>
     </article>
   </main>
 
@@ -98,12 +96,20 @@
     window.addEventListener('load', () => {
       if (typeof quicklink !== 'undefined') {
         quicklink.listen({
-          // Ik heb origins op false gezet of weggehaald, veiliger voor performance tenzij je zeker weet wat je doet.
-          // origins: true, 
+
           ignores: [/.(zip|pdf|txt)$/]
         });
       }
     });
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/assets/js/sw.js')
+        .then(() => console.log("Service Worker geregistreerd!"))
+        .catch(err => console.log("Registratie mislukt:", err));
+    }
+
   </script>
 </body>
 

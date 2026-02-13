@@ -1,5 +1,12 @@
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
-    .then(() => console.log("Service Worker geregistreerd!"))
-    .catch(err => console.log("Registratie mislukt:", err));
-}
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open('pwa-cache').then((cache) => {
+      return cache.addAll([
+        '/',
+        '/index.html',
+        '/style.css',
+        '/assets/js/site-optimization.js',
+      ]);
+    })
+  );
+});

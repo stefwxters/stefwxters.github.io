@@ -1,0 +1,6 @@
+@media print {
+    body {
+        background: white !important; /* Force override for print */
+        color: black;
+    }
+}
